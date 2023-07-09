@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+      name="description"
+      content="by Rahul Bhatt. This is a Bootstrap based website Project to be submitted to Mrs. Robina Dogra Mam, ET Mohali."
+    />
+  <link rel="icon" href="./assets/images/man (1).png" type="image/x-icon">
+  <title>Bootstrap project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="store">
+    <a href="./store.html">🛒</a>
+  </div>
+  <nav class="navbar navbar-expand-lg  bg-primary sticky-top ps-5">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#"><span>T</span>ricity<span>S</span>tores</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#team">Team</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./index.html#services" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Value
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./index.html#quality">Quality Code</a></li>
+              <li><a class="dropdown-item" href="./index.html#cost">Cost Efficient</a></li>
+              <li><a class="dropdown-item" href="./index.html#time">Time Efficient</a></li>
+              <li><a class="dropdown-item" href="./index.html#growth">High Growth</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- hero -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/images/Mobile development.gif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fw-bolder fs-1">Web Apps Design</h5>
+          <p class="fs-3">We design the best web apps fro your business, that stays with your
+            identity</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/User flow.gif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fw-bolder fs-1">Web Apps Design</h5>
+          <p class="fs-3">We design the best web apps fro your business, that stays with your
+            identity</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/Chat bot.gif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fw-bolder fs-1">Web Apps Design</h5>
+          <p class="fs-3">We design the best web apps fro your business, that stays with your
+            identity</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+  <!-- service sec -->
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="team">
+    <h1 class="d-flex align-items-center justify-content-center team">Our Team</h1>
+
+    <div class="col">
+      <div class="card">
+        <img src="./assets/images/man.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rajesh</h5>
+          <p class="card-text">Hi👋🏼, I'm Rajesh Panwar and I'm a Senior React Developer!</p>
+          <button class="btn btn-outline-light" type="button">Connect 🔗</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/images/woman.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vasudev</h5>
+          <p class="card-text">Hi👋🏼, I'm Vasudev Sharma and I'm a Senior .Net Developer!</p>
+          <button class="btn btn-outline-light" type="button">Connect 🔗</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/images/man (1).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Shubham</h5>
+          <p class="card-text">Hi👋🏼, I'm Shubham Sharma and I'm a M.E.R.N Stack Developer!</p>
+          <button class="btn btn-outline-light" type="button">Connect 🔗</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/images/man (2).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gaurav</h5>
+          <p class="card-text">Hi👋🏼, I'm Gaurav Sharma and I'm a M.E.A.N Developer & UI/UX Designer!</p>
+          <button class="btn btn-outline-light" type="button">Connect 🔗</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/images/man (3).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Yash</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content.</p>
+          <button class="btn btn-outline-light" type="button">Connect 🔗</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- anopthetr one
+   -->
+  <div class="row featurette" id="quality">
+    <div class="col-md-5 text-start ps-5 mt-5">
+      <h2 class="featurette-heading fw-normal lh-1">👍🏼Quality Code! <span class="text-body-secondary">It’ll
+          blow your mind.</span></h2>
+      <p class="lead">We are dedicated to delivering impeccable code quality for your web apps. Our skilled team of
+        developers diligently follows industry best practices, conducts comprehensive testing, and ensures secure and
+        scalable solutions. With meticulous attention to detail, we guarantee clean, efficient code that exceeds your
+        expectations, providing a seamless user experience.
+      </p>
+      <button class="btn btn-outline-secondary" type="button">Read More</button>
+    </div>
+    <div class="col-md-7">
+      <img src="./assets/images/Code typing.gif" class="img-fluid" alt="...">
+
+    </div>
+  </div>
+  <hr class="featurette-divider">
+
+  <div class="row featurette" id="cost">
+
+    <div class="col-md-7">
+      <img src="./assets/images/Savings.gif" class="img-fluid" alt="...">
+
+    </div>
+    <div class="col-md-5 text-start ps-5 mt-5">
+      <h2 class="featurette-heading fw-normal lh-1">💰Cost Effective! <span class="text-body-secondary">Invest in the best.</span></h2>
+      <p class="lead">Our focus on cost efficiency means that we deliver exceptional value for your investment. Through
+        careful planning, streamlined development processes, and optimization techniques, we maximize the utilization of
+        resources while minimizing unnecessary expenses. With us, you can expect cost-effective solutions that don't
+        compromise on quality or functionality.
+      </p>
+      <button class="btn btn-outline-secondary" type="button">Read More</button>
+    </div>
+  </div>
+  <hr class="featurette-divider">
+
+  <!-- anopthetr one
+   -->
+  <div class="row featurette" id="time">
+    <div class="col-md-5 text-start ps-5 mt-5">
+      <h2 class="featurette-heading fw-normal lh-1">⏳Time Savings! <span class="text-body-secondary">Get your work done in Time.</span></h2>
+      <p class="lead">Time punctuality is our priority. We understand the value of your time and strive to deliver our services promptly and efficiently. Additionally, our solutions are designed to optimize savings for your business. By implementing streamlined processes and cost-effective strategies, we help maximize your resources, enabling you to achieve significant savings.
+      </p>
+      <button class="btn btn-outline-secondary" type="button">Read More</button>
+    </div>
+    <div class="col-md-7">
+      <img src="./assets/images/save time.gif" class="img-fluid" alt="...">
+    </div>
+  </div>
+  <hr class="featurette-divider">
+
+  <div class="row featurette" id="growth">
+
+    <div class="col-md-7">
+      <img src="./assets/images/Business growth.gif" class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-5 text-start ps-5 mt-5">
+      <h2 class="featurette-heading fw-normal lh-1">🤑Growth & Profit! <span class="text-body-secondary">Maximize your Profits.</span></h2>
+      <p class="lead">Our services are designed to drive remarkable business growth and maximize profits for our clients. By leveraging our expertise and innovative solutions, you can unlock new opportunities, enhance customer engagement, and achieve higher conversions. Experience tangible results as your business expands, revenue increases, and you gain a competitive edge in the market.
+      </p>
+      <button class="btn btn-outline-secondary" type="button">Read More</button>
+    </div>
+  </div>
+  <hr class="featurette-divider">
+
+  <!-- contact -->
+  <!-- Contact form -->
+  <div class="row featurette" id="contact">
+    <h2 class="text-center fs-1">Contact Us</h2>
+    <div class="col-md-6 text-start ps-5 mt-5">
+      <div id="contact" class="container mt-5">
+
+        <form class="">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <img src="./assets/images/Contact us.gif" class="img-fluid" alt="...">
+    </div>
+
+  </div>
+
+  <!-- sfsdvsdv -->
+
+
+
+  <!-- footer -->
+
+  <div class="footer bg-black">
+    <div class="text-center">
+      <p class="text-danger ftext fw-bolder">© Made with 💓&☕ | 2023 | Rahul~Bhatt</p>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+</body>
+
+</html>
