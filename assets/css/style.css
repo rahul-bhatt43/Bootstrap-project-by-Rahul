@@ -21,6 +21,18 @@ body {
     outline: 2px solid rgb(255, 255, 255);
     text-transform: uppercase;
     transition: 0.3s all ease;
+    animation-name: animate;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animate{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .store:hover {
@@ -28,6 +40,7 @@ body {
     background-color: #151717;
     outline-offset: 2px;
     outline-color: #ee2a62;
+    animation: none;
 }
 
 .store a {
@@ -44,10 +57,12 @@ body {
     background: royalblue;
     transition: 0.3s all ease;
 }
-.row .card h5{
+
+.row .card h5 {
     color: yellow;
 }
-.row .card p{
+
+.row .card p {
     color: #fff;
 }
 
@@ -176,12 +191,17 @@ body {
 .footer .ftext {
     line-height: 50px;
 }
-.featurette .col-md-7 lord-icon{
+.footer .ftext span{
+    color: #eaff00;
+}
+
+.featurette .col-md-7 lord-icon {
     width: 500px;
     height: 500px;
 }
-@media(max-width: 750px){
-    .featurette .col-md-7 lord-icon{
+
+@media(max-width: 750px) {
+    .featurette .col-md-7 lord-icon {
         width: 350px;
         height: 350px;
     }

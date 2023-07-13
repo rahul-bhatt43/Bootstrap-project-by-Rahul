@@ -52,6 +52,9 @@
 .footer .ftext {
     line-height: 50px;
 }
+.footer .ftext span{
+    color: #eaff00;
+}
 
 @media (max-width: 750px) {
     #products button.more {
